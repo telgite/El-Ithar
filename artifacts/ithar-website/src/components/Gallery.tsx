@@ -4,6 +4,36 @@ import { motion } from 'framer-motion';
 import { Camera, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
 import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog';
+import ramadanFamilies from '@assets/WhatsApp_Image_2026-07-15_at_7.09.20_PM_(3)_1784321029452.jpeg';
+import ramadanMeals from '@assets/WhatsApp_Image_2026-07-15_at_7.09.20_PM_(4)_1784321029451.jpeg';
+import ramadanCooking from '@assets/WhatsApp_Image_2026-07-15_at_7.09.20_PM_(5)_1784321029449.jpeg';
+import ramadanTeam from '@assets/WhatsApp_Image_2026-07-15_at_7.10.14_PM_1784321039714.jpeg';
+import meatFamilies from '@assets/WhatsApp_Image_2026-07-15_at_7.13.44_PM_(1)_1784309095602.jpeg';
+import meatTeam from '@assets/WhatsApp_Image_2026-07-15_at_7.13.44_PM_1784309095602.jpeg';
+import meatPreparation from '@assets/WhatsApp_Image_2026-07-15_at_7.13.44_PM_1784320207608.jpeg';
+import clothesFamilies from '@assets/WhatsApp_Image_2026-07-15_at_7.14.42_PM_1784309095599.jpeg';
+import clothesChild from '@assets/WhatsApp_Image_2026-07-15_at_7.16.03_PM_(1)_1784321609267.jpeg';
+import clothesTeam from '@assets/WhatsApp_Image_2026-07-15_at_7.17.05_PM_1784321609265.jpeg';
+import clothesVolunteers from '@assets/WhatsApp_Image_2026-07-15_at_7.19.05_PM_1784321633380.jpeg';
+import healthVisit from '@assets/WhatsApp_Image_2026-07-15_at_7.16.03_PM_1784321624063.jpeg';
+import healthChildren from '@assets/WhatsApp_Image_2026-07-15_at_7.28.03_PM_1784322721198.jpeg';
+import healthAid from '@assets/WhatsApp_Image_2026-07-15_at_7.23.51_PM_(1)_1784322712621.jpeg';
+import healthSupplies from '@assets/WhatsApp_Image_2026-07-15_at_7.23.51_PM_1784322712622.jpeg';
+import blanketStock from '@assets/WhatsApp_Image_2026-07-15_at_8.04.33_PM_1784323924095.jpeg';
+import blanketDelivery from '@assets/WhatsApp_Image_2026-07-15_at_7.51.56_PM_1784323935053.jpeg';
+import blanketCamp from '@assets/WhatsApp_Image_2026-07-15_at_7.51.08_PM_1784323935049.jpeg';
+import blanketFamily from '@assets/WhatsApp_Image_2026-07-15_at_7.51.09_PM_1784323935052.jpeg';
+import waterTower from '@assets/WhatsApp_Image_2026-07-15_at_7.39.47_PM_1784323596096.jpeg';
+import waterValves from '@assets/WhatsApp_Image_2026-07-15_at_7.39.32_PM_(2)_1784323596097.jpeg';
+import waterPipe from '@assets/WhatsApp_Image_2026-07-15_at_7.39.32_PM_(1)_1784323596098.jpeg';
+import waterWellHead from '@assets/WhatsApp_Image_2026-07-15_at_7.39.32_PM_1784323596099.jpeg';
+import waterTankVillage from '@assets/WhatsApp_Image_2026-07-15_at_7.33.45_PM_1784323596104.jpeg';
+import waterDistribution from '@assets/WhatsApp_Image_2026-07-15_at_7.34.31_PM_(1)_1784323596101.jpeg';
+import waterTruck from '@assets/WhatsApp_Image_2026-07-15_at_7.34.30_PM_1784323596103.jpeg';
+import waterRemote from '@assets/WhatsApp_Image_2026-07-15_at_7.33.15_PM_1784323596105.jpeg';
+import waterDigging from '@assets/WhatsApp_Image_2026-07-15_at_7.34.31_PM_(2)_1784323596100.jpeg';
+import waterClean from '@assets/WhatsApp_Image_2026-07-15_at_7.34.31_PM_1784323596102.jpeg';
+import waterFamilies from '@assets/WhatsApp_Image_2026-07-15_at_7.33.14_PM_1784323596106.jpeg';
 
 // ── Types ─────────────────────────────────────────────────────────────────────
 
@@ -43,66 +73,66 @@ const DEFAULT_GALLERIES: GallerySection[] = [
     id: 'water',
     title: 'صور حملات السقايات وحفر الآبار',
     slots: [
-      { label: 'برج خزان المياه في الصحراء', src: '/api/storage/objects/uploads/6395897e-df6d-480f-bec7-80b27b91f64e', alt: 'برج خزان المياه في الصحراء - مشروع جمعية الإيثار' },
-      { label: 'صمامات ضخ المياه الشمسية', src: '/api/storage/objects/uploads/800a1a8e-87df-46e6-9453-fcceb6882413', alt: 'صمامات ضخ المياه الشمسية - مشروع حفر الآبار' },
-      { label: 'تركيب أنبوب بئر المياه', src: '/api/storage/objects/uploads/6b9ed78f-6dd1-419e-8631-4be239ee187d', alt: 'تركيب أنبوب بئر المياه في الصحراء' },
-      { label: 'رأس بئر المياه بين أشجار النخيل', src: '/api/storage/objects/uploads/ec5ada2a-fb7d-4d1a-812b-61ccc837bd0c', alt: 'رأس بئر المياه الشمسي بين أشجار النخيل' },
-      { label: 'خزان مياه محمول في القرية', src: '/api/storage/objects/uploads/d9f20683-0cf3-450c-b203-ad51ebbe7632', alt: 'خزان مياه محمول في القرية - سقاية للأسر الفقيرة' },
-      { label: 'توزيع المياه على الأسر المحتاجة', src: '/api/storage/objects/uploads/2f703102-d021-4816-b401-5979c416dbe2', alt: 'توزيع المياه على الأسر المحتاجة' },
-      { label: 'مشروع سقاية المياه', src: '/api/storage/objects/uploads/815acdf3-effc-487d-bef2-d65810aa6431', alt: 'مشروع سقاية المياه - جمعية الإيثار' },
-      { label: 'آبار المياه في المناطق النائية', src: '/api/storage/objects/uploads/7666bd9c-8b5f-437c-8e92-f1587ef063f4', alt: 'آبار المياه في المناطق النائية' },
-      { label: 'حفر الآبار وتوصيل المياه', src: '/api/storage/objects/uploads/f8c70a89-2fa3-46bf-b79e-b8c64511893e', alt: 'حفر الآبار وتوصيل المياه للقرى' },
-      { label: 'مشروع مياه الشرب النقية', src: '/api/storage/objects/uploads/383363ae-beb3-4759-a40a-4b9a2361950c', alt: 'مشروع مياه الشرب النقية - جمعية الإيثار' },
-      { label: 'إيصال المياه إلى الأسر المستفيدة', src: '/api/storage/objects/uploads/cb204dd7-f41b-4647-9d5c-3b29cd5a8a1b', alt: 'إيصال المياه إلى الأسر المستفيدة في القرى' },
+      { label: 'برج خزان المياه في الصحراء', src: waterTower, alt: 'برج خزان المياه في الصحراء - مشروع جمعية الإيثار' },
+      { label: 'صمامات ضخ المياه الشمسية', src: waterValves, alt: 'صمامات ضخ المياه الشمسية - مشروع حفر الآبار' },
+      { label: 'تركيب أنبوب بئر المياه', src: waterPipe, alt: 'تركيب أنبوب بئر المياه في الصحراء' },
+      { label: 'رأس بئر المياه بين أشجار النخيل', src: waterWellHead, alt: 'رأس بئر المياه الشمسي بين أشجار النخيل' },
+      { label: 'خزان مياه محمول في القرية', src: waterTankVillage, alt: 'خزان مياه محمول في القرية - سقاية للأسر الفقيرة' },
+      { label: 'توزيع المياه على الأسر المحتاجة', src: waterDistribution, alt: 'توزيع المياه على الأسر المحتاجة' },
+      { label: 'مشروع سقاية المياه', src: waterTruck, alt: 'مشروع سقاية المياه - جمعية الإيثار' },
+      { label: 'آبار المياه في المناطق النائية', src: waterRemote, alt: 'آبار المياه في المناطق النائية' },
+      { label: 'حفر الآبار وتوصيل المياه', src: waterDigging, alt: 'حفر الآبار وتوصيل المياه للقرى' },
+      { label: 'مشروع مياه الشرب النقية', src: waterClean, alt: 'مشروع مياه الشرب النقية - جمعية الإيثار' },
+      { label: 'إيصال المياه إلى الأسر المستفيدة', src: waterFamilies, alt: 'إيصال المياه إلى الأسر المستفيدة في القرى' },
     ],
   },
   {
     id: 'meat',
     title: 'صور حملات توزيع اللحوم',
     slots: [
-      { label: 'الأسر المستفيدة', src: '/api/storage/objects/uploads/a16cf7d9-2692-4d26-aee2-6fb0bcf102a0', alt: 'توزيع اللحوم - الأسر المستفيدة' },
-      { label: 'فريق الجمعية', src: '/api/storage/objects/uploads/fc90c1e9-319a-48f2-b141-85791565843d', alt: 'توزيع اللحوم - فريق الجمعية' },
-      { label: 'تقسيم اللحوم على الأسر الضعيفة', src: '/api/storage/objects/uploads/ef8fd07c-ddab-4232-b8c8-c8e3e3547bd3', alt: 'من أعمال الجمعية تقسيم الحوم على الأسر ضعيفة' },
+      { label: 'الأسر المستفيدة', src: meatFamilies, alt: 'توزيع اللحوم - الأسر المستفيدة' },
+      { label: 'فريق الجمعية', src: meatTeam, alt: 'توزيع اللحوم - فريق الجمعية' },
+      { label: 'تقسيم اللحوم على الأسر الضعيفة', src: meatPreparation, alt: 'من أعمال الجمعية تقسيم الحوم على الأسر ضعيفة' },
     ],
   },
   {
     id: 'clothes',
     title: 'صور حملات توزيع ملابس',
     slots: [
-      { label: 'أسر تنتظر استلام الملابس', src: '/api/storage/objects/uploads/c2594576-8e67-4324-8ab3-cc13ab3c2806', alt: 'أسر تنتظر استلام الملابس - حملة توزيع الملابس' },
-      { label: 'طفلة تعرض ملابسها الجديدة', src: '/api/storage/objects/uploads/eb5b5be3-6645-451e-a43a-23f7f6fc7dce', alt: 'طفلة تعرض ملابسها الجديدة - حملة توزيع الملابس' },
-      { label: 'فريق الجمعية يوزع الملابس على الأطفال', src: '/api/storage/objects/uploads/2ce24481-31e4-4677-8842-5e59520203cd', alt: 'فريق الجمعية يوزع الملابس على الأطفال' },
-      { label: 'متطوعو الجمعية في حملة توزيع الملابس', src: '/api/storage/objects/uploads/2f13fe9e-d370-472b-aa03-9868a1b47f6e', alt: 'متطوعو جمعية الإيثار في حملة توزيع الملابس' },
+      { label: 'أسر تنتظر استلام الملابس', src: clothesFamilies, alt: 'أسر تنتظر استلام الملابس - حملة توزيع الملابس' },
+      { label: 'طفلة تعرض ملابسها الجديدة', src: clothesChild, alt: 'طفلة تعرض ملابسها الجديدة - حملة توزيع الملابس' },
+      { label: 'فريق الجمعية يوزع الملابس على الأطفال', src: clothesTeam, alt: 'فريق الجمعية يوزع الملابس على الأطفال' },
+      { label: 'متطوعو الجمعية في حملة توزيع الملابس', src: clothesVolunteers, alt: 'متطوعو جمعية الإيثار في حملة توزيع الملابس' },
     ],
   },
   {
     id: 'health',
     title: 'صور رحلات نوعية في مجال الصحة والتعليم',
     slots: [
-      { label: 'رحلات في الأرياف لتوعية في مجال الصحة', src: '/api/storage/objects/uploads/687cdec4-9f43-42be-9bd9-ab770202e694', alt: 'رحلات الجمعية في الأرياف للتوعية الصحية' },
-      { label: 'زيارة ميدانية لأسرة محتاجة', src: '/api/storage/objects/uploads/a42f8d34-b399-4db0-98e2-f6d96376741d', alt: 'زيارة ميدانية لأسرة محتاجة - رحلات الصحة والتعليم' },
-      { label: 'أطفال المجتمعات المستفيدة', src: '/api/storage/objects/uploads/29e7038c-ae3b-41d3-aacd-a593acad3d07', alt: 'أطفال المجتمعات المستفيدة من رحلات جمعية الإيثار' },
-      { label: 'فريق الجمعية يقدم المساعدات الميدانية', src: '/api/storage/objects/uploads/ec1a407c-715a-466b-a214-76b1b68fdae4', alt: 'فريق جمعية الإيثار يقدم المساعدات الميدانية للأسر' },
+      { label: 'رحلات في الأرياف لتوعية في مجال الصحة', src: healthSupplies, alt: 'رحلات الجمعية في الأرياف للتوعية الصحية' },
+      { label: 'زيارة ميدانية لأسرة محتاجة', src: healthVisit, alt: 'زيارة ميدانية لأسرة محتاجة - رحلات الصحة والتعليم' },
+      { label: 'أطفال المجتمعات المستفيدة', src: healthChildren, alt: 'أطفال المجتمعات المستفيدة من رحلات جمعية الإيثار' },
+      { label: 'فريق الجمعية يقدم المساعدات الميدانية', src: healthAid, alt: 'فريق جمعية الإيثار يقدم المساعدات الميدانية للأسر' },
     ],
   },
   {
     id: 'blankets',
     title: 'صور حملات توزيع بطانيات في الشتاء',
     slots: [
-      { label: 'بطانيات وملابس شتوية جاهزة للتوزيع', src: '/api/storage/objects/uploads/e0a02b58-636f-4c18-b3c3-b3e5fd0738fd', alt: 'بطانيات وملابس شتوية جاهزة للتوزيع - جمعية الإيثار' },
-      { label: 'أسرة تستلم البطانيات في مخيمها', src: '/api/storage/objects/uploads/70808b2b-881b-4812-96f9-42f244a85598', alt: 'أسرة تستلم البطانيات في مخيمها' },
-      { label: 'مخزون البطانيات قبيل انطلاق الحملة', src: '/api/storage/objects/uploads/a93737e8-3fb4-44e7-9072-ec90a6cad5f7', alt: 'مخزون البطانيات قبيل انطلاق حملة التوزيع' },
-      { label: 'طفلة تتلقى بطانيتها الشتوية', src: '/api/storage/objects/uploads/3ff5e207-7bcf-4251-8d4c-70577cef9f88', alt: 'طفلة تتلقى بطانيتها الشتوية من الجمعية' },
+      { label: 'بطانيات وملابس شتوية جاهزة للتوزيع', src: blanketStock, alt: 'بطانيات وملابس شتوية جاهزة للتوزيع - جمعية الإيثار' },
+      { label: 'أسرة تستلم البطانيات في مخيمها', src: blanketCamp, alt: 'أسرة تستلم البطانيات في مخيمها' },
+      { label: 'مخزون البطانيات قبيل انطلاق الحملة', src: blanketDelivery, alt: 'مخزون البطانيات قبيل انطلاق حملة التوزيع' },
+      { label: 'طفلة تتلقى بطانيتها الشتوية', src: blanketFamily, alt: 'طفلة تتلقى بطانيتها الشتوية من الجمعية' },
     ],
   },
   {
     id: 'ramadan',
     title: 'صور سلال رمضان',
     slots: [
-      { label: 'تحضير سلال رمضان الغذائية', src: '/api/storage/objects/uploads/1bc61935-0ae1-448a-b3a1-42c1801c510c', alt: 'تحضير سلال رمضان الغذائية - المتطوعون' },
-      { label: 'وجبات إفطار جماعية في المساجد', src: '/api/storage/objects/uploads/6cfc89b5-a0c2-4e10-8ceb-b3d2a49a29c2', alt: 'وجبات إفطار جماعية في المساجد' },
-      { label: 'عائلات تستلم سلال رمضان', src: '/api/storage/objects/uploads/9227c080-8db7-458a-b92c-e4146c257fc1', alt: 'عائلات تستلم سلال رمضان - المستفيدون' },
-      { label: 'فريق الجمعية في حملة التوزيع', src: '/api/storage/objects/uploads/af3c20c3-0093-4b10-8d1b-38ed646d1dc3', alt: 'فريق جمعية الإيثار في حملة توزيع السلال الغذائية' },
+      { label: 'تحضير سلال رمضان الغذائية', src: ramadanCooking, alt: 'تحضير سلال رمضان الغذائية - المتطوعون' },
+      { label: 'وجبات إفطار جماعية في المساجد', src: ramadanMeals, alt: 'وجبات إفطار جماعية في المساجد' },
+      { label: 'عائلات تستلم سلال رمضان', src: ramadanFamilies, alt: 'عائلات تستلم سلال رمضان - المستفيدون' },
+      { label: 'فريق الجمعية في حملة التوزيع', src: ramadanTeam, alt: 'فريق جمعية الإيثار في حملة توزيع السلال الغذائية' },
     ],
   },
 ];
