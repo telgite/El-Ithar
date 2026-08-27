@@ -1,5 +1,4 @@
 import { useState, useRef, useEffect, useCallback } from 'react';
-import { useQuery } from "@tanstack/react-query";
 import { motion } from 'framer-motion';
 import { Camera, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
@@ -47,23 +46,6 @@ interface GallerySection {
   id: string;
   title: string;
   slots: GallerySlot[];
-}
-
-interface ApiGalleryImage {
-  id: number;
-  galleryId: number;
-  objectPath: string;
-  altText: string;
-  sortOrder: number;
-}
-
-interface ApiGallery {
-  id: number;
-  slug: string;
-  title: string;
-  sortOrder: number;
-  isActive: boolean;
-  images: ApiGalleryImage[];
 }
 
 // ── Hardcoded fallback (used while loading or on error) ───────────────────────
@@ -136,20 +118,6 @@ const DEFAULT_GALLERIES: GallerySection[] = [
     ],
   },
 ];
-
-// ── Map API response to GallerySection ────────────────────────────────────────
-
-function apiToSection(g: ApiGallery): GallerySection {
-  return {
-    id: g.slug,
-    title: g.title,
-    slots: g.images.map((img) => ({
-      label: img.altText || g.title,
-      src: `/api/storage${img.objectPath}`,
-      alt: img.altText || g.title,
-    })),
-  };
-}
 
 // ── Mobile tab strip ──────────────────────────────────────────────────────────
 //
@@ -386,22 +354,7 @@ function MobileTabStrip({ galleries, activeId, onSelect }: MobileTabStripProps) 
 // ── Component ─────────────────────────────────────────────────────────────────
 
 export function Gallery() {
-  const { data: apiGalleries } = useQuery<ApiGallery[]>({
-    queryKey: ["public-galleries"],
-    queryFn: () => fetch("/api/galleries").then((r) => r.json()),
-    staleTime: 60_000,
-  });
-
-  // Use API data when available, fall back to hardcoded defaults
-  const galleries: GallerySection[] =
-    apiGalleries && apiGalleries.length > 0
-      ? apiGalleries
-          .filter((g) => g.isActive)
-          .map(apiToSection)
-          .filter((g) => g.slots.length > 0)
-      : DEFAULT_GALLERIES;
-
-  const displayGalleries = galleries.length > 0 ? galleries : DEFAULT_GALLERIES;
+  const displayGalleries = DEFAULT_GALLERIES;
 
   // ── Controlled tab state ──────────────────────────────────────────────────
   const [activeId, setActiveId] = useState<string>(displayGalleries[0]?.id ?? '');
