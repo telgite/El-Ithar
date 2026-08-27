@@ -1,0 +1,388 @@
+{
+  "version": 1,
+  "exportedAt": "2026-07-21T00:33:29.490Z",
+  "content": [
+    {
+      "key": "hero_title",
+      "value": "جمعية الإيثار للتنمية والتكافل الاجتماعي"
+    },
+    {
+      "key": "hero_subtitle",
+      "value": "جمعية الإيثار للعمل الخيري — نسعى لبناء مجتمع أفضل من خلال العطاء والتضامن"
+    },
+    {
+      "key": "about_text",
+      "value": "الإيثار هي جمعية خيرية تأسست عام 2018 بهدف خدمة المجتمعات المحتاجة في موريتانيا. نؤمن بأن العطاء والإيثار قيم أساسية تبني مجتمعاً أفضل للجميع."
+    },
+    {
+      "key": "about_founded_year",
+      "value": "2018"
+    },
+    {
+      "key": "about_beneficiaries",
+      "value": "10000"
+    },
+    {
+      "key": "about_projects",
+      "value": "90"
+    },
+    {
+      "key": "about_states",
+      "value": "5"
+    },
+    {
+      "key": "quote_text",
+      "value": "من خلال جمعية الإيثار، استطعنا الوصول إلى قرى نائية وتوفير المياه النظيفة لمئات العائلات. العمل الخيري ليس مجرد مساعدة، بل بناء مستقبل أفضل للجميع."
+    },
+    {
+      "key": "quote_author",
+      "value": "الشيخ إبراهيم أبن"
+    },
+    {
+      "key": "quote_role",
+      "value": "مدير المشاريع"
+    },
+    {
+      "key": "impact_wells",
+      "value": "32"
+    },
+    {
+      "key": "impact_families",
+      "value": "5000"
+    },
+    {
+      "key": "impact_clothes",
+      "value": "2000"
+    },
+    {
+      "key": "impact_baskets",
+      "value": "3000"
+    },
+    {
+      "key": "contact_whatsapp",
+      "value": "+222 11 17 61 27"
+    },
+    {
+      "key": "contact_whatsapp_href",
+      "value": "https://wa.me/22211176127"
+    },
+    {
+      "key": "contact_phone",
+      "value": "+222 51 01 11 47"
+    },
+    {
+      "key": "contact_phone_href",
+      "value": "tel:+22251011147"
+    },
+    {
+      "key": "contact_email",
+      "value": "contact@ithar.net"
+    },
+    {
+      "key": "contact_location",
+      "value": "نواكشوط، موريتانيا"
+    },
+    {
+      "key": "verify_test_key",
+      "value": "قيمة اختبار التحقق"
+    }
+  ],
+  "activities": [
+    {
+      "id": 1,
+      "title": "توزيع السلات الغذائية",
+      "description": "نوزع سلال غذائية متكاملة على الأسر المحتاجة خلال المواسم والمناسبات، ونضمن وصول الغذاء لأكثر المناطق احتياجاً.",
+      "stat": "+3000 سلة غذائية",
+      "iconName": "Package",
+      "sortOrder": 1,
+      "isActive": true,
+      "images": []
+    },
+    {
+      "id": 2,
+      "title": "حفر الآبار",
+      "description": "نحفر آباراً للمياه في المناطق المحرومة لتأمين المياه النظيفة للأسر والمجتمعات، ونساهم في الحد من ظاهرة شح المياه.",
+      "stat": "32 بئر مياه",
+      "iconName": "Droplets",
+      "sortOrder": 2,
+      "isActive": true,
+      "images": []
+    },
+    {
+      "id": 4,
+      "title": "كساء وملابس",
+      "description": "نوفر الملابس والأغطية لأسر تعاني البرد والحاجة، ونحرص على الكرامة الإنسانية في كل ما نقدمه من مساعدات.",
+      "stat": "+2000 قطعة ملابس",
+      "iconName": "Shirt",
+      "sortOrder": 4,
+      "isActive": true,
+      "images": []
+    },
+    {
+      "id": 6,
+      "title": "توزيع اللحوم",
+      "description": "نوزع اللحوم على الأسر المحتاجة في المناسبات الدينية كعيد الأضحى وغيره، لنضمن وصول فرحة العيد إلى كل بيت.",
+      "stat": "+500 أسرة مستفيدة",
+      "iconName": "UtensilsCrossed",
+      "sortOrder": 5,
+      "isActive": true,
+      "images": []
+    },
+    {
+      "id": 7,
+      "title": "رحلات نوعية في مجال الصحة والتعليم",
+      "description": "تنظم الجمعية رحلات نوعية لتقديم الخدمات الصحية والدعم التعليمي للمجتمعات المحتاجة، من خلال مبادرات ميدانية تهدف إلى تحسين جودة الحياة وتعزيز فرص التعليم والرعاية الصحية.",
+      "stat": "",
+      "iconName": "HandHeart",
+      "sortOrder": 10,
+      "isActive": true,
+      "images": []
+    }
+  ],
+  "galleries": [
+    {
+      "id": 1,
+      "slug": "water",
+      "title": "صور حملات السقايات وحفر الآبار",
+      "sortOrder": 1,
+      "isActive": true,
+      "images": [
+        {
+          "id": 1,
+          "objectPath": "/objects/uploads/6395897e-df6d-480f-bec7-80b27b91f64e",
+          "altText": "برج خزان المياه في الصحراء",
+          "sortOrder": 1
+        },
+        {
+          "id": 2,
+          "objectPath": "/objects/uploads/800a1a8e-87df-46e6-9453-fcceb6882413",
+          "altText": "صمامات ضخ المياه الشمسية",
+          "sortOrder": 2
+        },
+        {
+          "id": 3,
+          "objectPath": "/objects/uploads/6b9ed78f-6dd1-419e-8631-4be239ee187d",
+          "altText": "تركيب أنبوب بئر المياه",
+          "sortOrder": 3
+        },
+        {
+          "id": 4,
+          "objectPath": "/objects/uploads/ec5ada2a-fb7d-4d1a-812b-61ccc837bd0c",
+          "altText": "رأس بئر المياه بين أشجار النخيل",
+          "sortOrder": 4
+        },
+        {
+          "id": 5,
+          "objectPath": "/objects/uploads/d9f20683-0cf3-450c-b203-ad51ebbe7632",
+          "altText": "خزان مياه محمول في القرية",
+          "sortOrder": 5
+        },
+        {
+          "id": 6,
+          "objectPath": "/objects/uploads/2f703102-d021-4816-b401-5979c416dbe2",
+          "altText": "توزيع المياه على الأسر المحتاجة",
+          "sortOrder": 6
+        },
+        {
+          "id": 7,
+          "objectPath": "/objects/uploads/815acdf3-effc-487d-bef2-d65810aa6431",
+          "altText": "مشروع سقاية المياه",
+          "sortOrder": 7
+        },
+        {
+          "id": 8,
+          "objectPath": "/objects/uploads/7666bd9c-8b5f-437c-8e92-f1587ef063f4",
+          "altText": "آبار المياه في المناطق النائية",
+          "sortOrder": 8
+        },
+        {
+          "id": 9,
+          "objectPath": "/objects/uploads/f8c70a89-2fa3-46bf-b79e-b8c64511893e",
+          "altText": "حفر الآبار وتوصيل المياه",
+          "sortOrder": 9
+        },
+        {
+          "id": 10,
+          "objectPath": "/objects/uploads/383363ae-beb3-4759-a40a-4b9a2361950c",
+          "altText": "مشروع مياه الشرب النقية",
+          "sortOrder": 10
+        },
+        {
+          "id": 11,
+          "objectPath": "/objects/uploads/cb204dd7-f41b-4647-9d5c-3b29cd5a8a1b",
+          "altText": "إيصال المياه إلى الأسر المستفيدة",
+          "sortOrder": 11
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "meat",
+      "title": "صور حملات توزيع اللحوم",
+      "sortOrder": 2,
+      "isActive": true,
+      "images": [
+        {
+          "id": 12,
+          "objectPath": "/objects/uploads/a16cf7d9-2692-4d26-aee2-6fb0bcf102a0",
+          "altText": "الأسر المستفيدة من توزيع اللحوم",
+          "sortOrder": 1
+        },
+        {
+          "id": 13,
+          "objectPath": "/objects/uploads/fc90c1e9-319a-48f2-b141-85791565843d",
+          "altText": "فريق جمعية الإيثار في توزيع اللحوم",
+          "sortOrder": 2
+        },
+        {
+          "id": 14,
+          "objectPath": "/objects/uploads/ef8fd07c-ddab-4232-b8c8-c8e3e3547bd3",
+          "altText": "تقسيم اللحوم على الأسر الضعيفة",
+          "sortOrder": 3
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "clothes",
+      "title": "صور حملات توزيع ملابس",
+      "sortOrder": 3,
+      "isActive": true,
+      "images": [
+        {
+          "id": 15,
+          "objectPath": "/objects/uploads/c2594576-8e67-4324-8ab3-cc13ab3c2806",
+          "altText": "أسر تنتظر استلام الملابس",
+          "sortOrder": 1
+        },
+        {
+          "id": 16,
+          "objectPath": "/objects/uploads/eb5b5be3-6645-451e-a43a-23f7f6fc7dce",
+          "altText": "طفلة تعرض ملابسها الجديدة",
+          "sortOrder": 2
+        },
+        {
+          "id": 17,
+          "objectPath": "/objects/uploads/2ce24481-31e4-4677-8842-5e59520203cd",
+          "altText": "فريق الجمعية يوزع الملابس على الأطفال",
+          "sortOrder": 3
+        },
+        {
+          "id": 18,
+          "objectPath": "/objects/uploads/2f13fe9e-d370-472b-aa03-9868a1b47f6e",
+          "altText": "متطوعو الجمعية في حملة توزيع الملابس",
+          "sortOrder": 4
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "health",
+      "title": "صور رحلات نوعية في مجال الصحة والتعليم",
+      "sortOrder": 4,
+      "isActive": true,
+      "images": [
+        {
+          "id": 19,
+          "objectPath": "/objects/uploads/687cdec4-9f43-42be-9bd9-ab770202e694",
+          "altText": "رحلات في الأرياف للتوعية الصحية",
+          "sortOrder": 1
+        },
+        {
+          "id": 20,
+          "objectPath": "/objects/uploads/a42f8d34-b399-4db0-98e2-f6d96376741d",
+          "altText": "زيارة ميدانية لأسرة محتاجة",
+          "sortOrder": 2
+        },
+        {
+          "id": 21,
+          "objectPath": "/objects/uploads/29e7038c-ae3b-41d3-aacd-a593acad3d07",
+          "altText": "أطفال المجتمعات المستفيدة",
+          "sortOrder": 3
+        },
+        {
+          "id": 22,
+          "objectPath": "/objects/uploads/ec1a407c-715a-466b-a214-76b1b68fdae4",
+          "altText": "فريق الجمعية يقدم المساعدات الميدانية",
+          "sortOrder": 4
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "blankets",
+      "title": "صور حملات توزيع بطانيات في الشتاء",
+      "sortOrder": 5,
+      "isActive": true,
+      "images": [
+        {
+          "id": 23,
+          "objectPath": "/objects/uploads/e0a02b58-636f-4c18-b3c3-b3e5fd0738fd",
+          "altText": "بطانيات وملابس شتوية جاهزة للتوزيع",
+          "sortOrder": 1
+        },
+        {
+          "id": 24,
+          "objectPath": "/objects/uploads/70808b2b-881b-4812-96f9-42f244a85598",
+          "altText": "أسرة تستلم البطانيات في مخيمها",
+          "sortOrder": 2
+        },
+        {
+          "id": 25,
+          "objectPath": "/objects/uploads/a93737e8-3fb4-44e7-9072-ec90a6cad5f7",
+          "altText": "مخزون البطانيات قبيل انطلاق الحملة",
+          "sortOrder": 3
+        },
+        {
+          "id": 26,
+          "objectPath": "/objects/uploads/3ff5e207-7bcf-4251-8d4c-70577cef9f88",
+          "altText": "طفلة تتلقى بطانيتها الشتوية",
+          "sortOrder": 4
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "slug": "ramadan",
+      "title": "صور سلال رمضان",
+      "sortOrder": 6,
+      "isActive": true,
+      "images": [
+        {
+          "id": 27,
+          "objectPath": "/objects/uploads/1bc61935-0ae1-448a-b3a1-42c1801c510c",
+          "altText": "تحضير سلال رمضان الغذائية",
+          "sortOrder": 1
+        },
+        {
+          "id": 28,
+          "objectPath": "/objects/uploads/6cfc89b5-a0c2-4e10-8ceb-b3d2a49a29c2",
+          "altText": "وجبات إفطار جماعية في المساجد",
+          "sortOrder": 2
+        },
+        {
+          "id": 29,
+          "objectPath": "/objects/uploads/9227c080-8db7-458a-b92c-e4146c257fc1",
+          "altText": "عائلات تستلم سلال رمضان",
+          "sortOrder": 3
+        },
+        {
+          "id": 30,
+          "objectPath": "/objects/uploads/af3c20c3-0093-4b10-8d1b-38ed646d1dc3",
+          "altText": "فريق الجمعية في حملة توزيع السلال الغذائية",
+          "sortOrder": 4
+        }
+      ]
+    }
+  ],
+  "socialMedia": [
+    { "id": 1, "platform": "facebook",  "name": "Facebook",  "url": "", "enabled": true,  "visible": true,  "sortOrder": 0 },
+    { "id": 2, "platform": "instagram", "name": "Instagram", "url": "", "enabled": false, "visible": false, "sortOrder": 1 },
+    { "id": 3, "platform": "twitter",   "name": "Twitter",   "url": "", "enabled": false, "visible": false, "sortOrder": 2 },
+    { "id": 4, "platform": "youtube",   "name": "YouTube",   "url": "", "enabled": false, "visible": false, "sortOrder": 3 },
+    { "id": 5, "platform": "tiktok",    "name": "TikTok",    "url": "", "enabled": false, "visible": false, "sortOrder": 4 },
+    { "id": 6, "platform": "telegram",  "name": "Telegram",  "url": "", "enabled": false, "visible": false, "sortOrder": 5 },
+    { "id": 7, "platform": "whatsapp",  "name": "WhatsApp",  "url": "", "enabled": false, "visible": false, "sortOrder": 6 },
+    { "id": 8, "platform": "linkedin",  "name": "LinkedIn",  "url": "", "enabled": false, "visible": false, "sortOrder": 7 }
+  ]
+}

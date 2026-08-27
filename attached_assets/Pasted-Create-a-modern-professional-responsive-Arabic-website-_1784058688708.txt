@@ -1,0 +1,312 @@
+Create a modern, professional, responsive Arabic website for a Mauritanian charity organization.
+
+Organization name:
+جمعية الإيثار للعمل الخيري ومكافحة الفقر
+
+Website language:
+Arabic only with perfect RTL (Right To Left) support.
+
+Goal:
+Build a trustworthy nonprofit website that presents the charity's mission, projects, achievements, impact, and contact information. The website should look like a professional international charity website, with a warm humanitarian feeling.
+
+Design requirements:
+- Modern clean design
+- Mobile-first responsive layout
+- Arabic RTL support everywhere
+- Professional typography
+- Smooth scrolling animations
+- Elegant cards and sections
+- Fast loading and optimized
+- Easy to edit content later
+- Use reusable components
+- Use charity/humanitarian style
+
+Brand identity:
+Colors:
+- Green (hope and growth)
+- White
+- Light beige/sand colors inspired by Mauritania
+
+------------------------------------------------
+
+HEADER / NAVIGATION:
+
+Create a sticky navigation bar with:
+
+Logo:
+جمعية الإيثار
+
+Menu:
+الرئيسية
+من نحن
+أنشطتنا
+إنجازاتنا
+تبرع
+تواصل معنا
+
+Add a highlighted button:
+تبرع الآن
+
+------------------------------------------------
+
+HERO SECTION:
+
+Create a large attractive hero section.
+
+Main title:
+جمعية الإيثار للعمل الخيري ومكافحة الفقر
+
+Subtitle:
+جمعية خيرية تهدف إلى تحسين حياة المحتاجين في موريتانيا من خلال مشاريع المياه والغذاء والكساء
+
+Buttons:
+- تبرع الآن
+- تعرف علينا
+
+Use a humanitarian background image placeholder related to:
+- Helping people
+- Clean water projects
+- Mauritania communities
+
+------------------------------------------------
+
+ABOUT US:
+
+Title:
+من نحن
+
+Text:
+
+"الإيثار هي جمعية خيرية تأسست عام 2018 بهدف خدمة المجتمعات المحتاجة في موريتانيا. نؤمن بأن العطاء والإيثار قيم أساسية تبني مجتمعاً أفضل للجميع."
+
+Create achievement statistics cards:
+
+10,000+
+مستفيد
+
+90+
+مشروع
+
+5+
+ولايات
+
+------------------------------------------------
+
+ACHIEVEMENTS QUOTE:
+
+Create a highlighted quote section.
+
+Quote:
+
+"من خلال جمعية الإيثار، استطعنا الوصول إلى قرى نائية وتوفير المياه النظيفة لمئات العائلات. العمل الخيري ليس مجرد مساعدة، بل بناء مستقبل أفضل للجميع."
+
+Author:
+
+الشيخ إبراهيم أبن
+
+Position:
+
+مدير المشاريع
+
+------------------------------------------------
+
+CHARITY ACTIVITIES:
+
+Title:
+
+أنشطتنا الخيرية
+
+Subtitle:
+
+نقدم مساعدات متنوعة للمحتاجين في مختلف المجالات
+
+
+Create 4 professional project cards:
+
+
+1) Water Wells:
+
+Title:
+💫 آبار المياه
+
+Description:
+حفر الآبار الارتوازية وتوفير المياه النظيفة للقرى النائية في موريتانيا
+
+Statistic:
+50+ بئر تم حفرها
+
+
+2) Meat Distribution:
+
+Title:
+توزيع اللحوم
+
+Description:
+توزيع لحوم الأضاحي والعقيقة على الأسر المحتاجة خلال المناسبات الدينية
+
+Statistic:
+5000+ عائلة استفادت
+
+
+3) Winter Clothing:
+
+Title:
+ملابس الشتاء
+
+Description:
+توفير الملابس الدافئة والبطانيات للمحتاجين خلال فصل الشتاء البارد
+
+Statistic:
+2000+ قطعة ملابس وُزعت
+
+
+4) Ramadan Food Baskets:
+
+Title:
+سلال رمضان
+
+Description:
+توزيع سلال غذائية شاملة للأسر المحتاجة خلال شهر رمضان المبارك
+
+Statistic:
+3000+ سلة غذائية وُزعت
+
+
+------------------------------------------------
+
+IMAGE GALLERY SYSTEM:
+
+For every charity activity create a professional photo gallery.
+
+Important:
+Do not use fake AI-generated images as final photos.
+
+Create image placeholders that can easily be replaced later with real photos from the charity.
+
+Each project should support multiple images.
+
+Create galleries:
+
+1. صور حملات آبار المياه
+- Well drilling
+- Villages receiving water
+- Beneficiary families
+
+
+2. صور حملات توزيع اللحوم
+- Food distribution
+- Volunteers
+- Families receiving aid
+
+
+3. صور حملة ملابس الشتاء
+- Clothes distribution
+- Blankets
+- Beneficiaries
+
+
+4. صور سلال رمضان
+- Food packages
+- Distribution campaigns
+- Families receiving assistance
+
+
+Gallery features:
+- Modern grid layout
+- Responsive design
+- Image cards
+- Click image to open lightbox
+- Easy image replacement
+
+
+------------------------------------------------
+
+IMPACT / DONATION SECTION:
+
+Create a powerful call-to-action section.
+
+Title:
+
+كن جزءاً من التغيير الإيجابي
+
+Text:
+
+"مساهمتك تساعدنا في الوصول إلى المزيد من المحتاجين وتحقيق المزيد من الإنجازات. كل تبرع يحدث فرقاً حقيقياً في حياة الناس."
+
+Display:
+
+50+
+بئر مياه
+
+5000+
+عائلة استفادت
+
+2000+
+قطعة ملابس
+
+3000+
+سلة غذائية
+
+
+Add button:
+
+ساهم الآن
+
+------------------------------------------------
+
+CONTACT SECTION:
+
+Title:
+
+تواصل معنا
+
+Text:
+
+نحن هنا للإجابة على استفساراتكم
+
+
+Contact information:
+
+WhatsApp:
++222 11 17 61 27
+
+Phone:
++222 51 01 11 47
+
+Email:
+contact@ithar.net
+
+Location:
+نواكشوط، موريتانيا
+
+
+Add Google Maps button linking to:
+
+https://www.google.com/maps/dir/?api=1&destination=18.0735,-15.9582
+
+
+------------------------------------------------
+
+FOOTER:
+
+Include:
+
+جمعية الإيثار للعمل الخيري ومكافحة الفقر
+
+العطاء والإيثار لبناء مستقبل أفضل
+
+Add social media icons placeholders.
+
+------------------------------------------------
+
+TECHNICAL REQUIREMENTS:
+
+- Build with clean modern code.
+- Create reusable components.
+- Make all text editable.
+- Prepare image upload/replacement structure.
+- Perfect Arabic RTL support.
+- Responsive on phones, tablets, and desktop.
+- Add subtle animations.
+- Optimize performance and SEO.
+- Create a professional nonprofit website suitable for a real registered charity.
